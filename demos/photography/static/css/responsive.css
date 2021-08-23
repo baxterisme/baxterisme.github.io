@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1048px) {
+	#exitmenu-block {
+		display: none;
+	}
+	#menu-content {
+		text-align: center;
+		flex: 1;
+		background: #0f0f0f;
+		padding: 15px 30px;
+	}
+	#menu-content div:nth-child(1) {
+		padding-right: 0;
+	}
+	#menu-content div:nth-child(1) {
+		padding-right: 0;
+	}
+}
+@media only screen and (max-width: 961.6px) {
+	#about-me, #my-skills {
+		flex-direction: column;
+		padding: 30px;
+	}
+	#my-skills {
+		padding: 30px;
+	}
+	#my-info {
+		padding: 30px 0 0 ;
+	}
+	#languages {
+		padding-left: 0;
+		margin-top: 60px;
+	}
+	#copyright {
+		width: 100%;
+		padding: 0 30px;
+	}
+}
+@media only screen and (max-width: 812.8px) {
+	#portfolio-body ul {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+	#contact-form {
+		width: 100%;
+		padding: 0 60px;
+	}
+}
+@media only screen and (max-width: 736px) {
+	#portfolio-header {
+		flex-direction: column;
+		align-items: baseline;
+	}
+	#portfolio-header div:nth-child(2) {
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width: 614px) {
+	#header-contacts {
+		display: none;
+	}
+	#naming {
+		flex: 1;
+	}
+	header div {
+		padding: 0;
+	}
+	#inner-portfolio {
+		padding: 30px;
+	}
+	#portfolio-body ul {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+	}
+	#portfolio-body li {
+		margin-bottom: 30px;
+	}
+	#copyright {
+		width: 100%;
+		padding: 0;
+	}
+	#contact-form {
+		padding: 0 30px;
+	}
+	#copyright {
+		flex-direction: column;
+	}
+	#copyright > a {
+		margin-top: 20px;
+	}
+	#copyright ul {
+		display: block;
+	}
+}

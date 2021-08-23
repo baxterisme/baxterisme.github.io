@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1200px) {
+	.work, #lightbox div, .skills {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 530px) {
+	html, body, #skills > div h1, #works > div:nth-child(1) h1 {
+		padding: 0 10px;
+	}
+	header div:nth-child(2) li {
+		margin-left: 30px;
+	}
+	header div:nth-child(2) li:nth-child(1) {
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 390px) {
+	header div:nth-child(2) li {
+		margin-left: 15px;
+	}
+	header div:nth-child(2) li:nth-child(1) {
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width: 360px) {
+	header div:nth-child(2) li {
+		margin-right: 15px;
+		margin-left: 0;
+		margin-bottom: 30px;
+	}
+	header div:nth-child(2) li:nth-child(3) {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+}
