@@ -16,7 +16,7 @@ window.onload = () => {
 	window.onscroll = () => {
 		let elem = document.querySelector('#intro a');
 
-		if ((document.body.scrollTop || document.documentElement.scrollTop) > 0) {
+		if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
 			elem.style.transform = 'rotate(180deg)';
 
 			elem.href = '#introduction';
