@@ -4,6 +4,11 @@
 	background #EDEAE0
 	font       #626068
 	border 	   dimgray
+
+	|| new colors
+	background #121019
+	font #493E65, #B6B6B6
+	border #B6B6B6
 */
 
 * {
@@ -15,7 +20,7 @@
 }
 html, body {
 	height: 100%;
-	background: #EDEAE0;
+	background: #121019; /* #EDEAE0 */
 	padding: 0 30px;
 	scroll-behavior: smooth;
 }
@@ -51,18 +56,18 @@ header div {
 }
 header div:nth-child(1) {
 	text-transform: uppercase;
-	color: #626068;
+	color: #493E65;
 	text-align: center;
 	padding: 30px;
 }
 header div:nth-child(2) {
-	border-bottom: 1px solid dimgray;
+	border-bottom: 1px solid #493E65;
 	font-size: 17px;
 	flex-direction: column;
 }
 header div:nth-child(2) a {
 	display: inline-block;
-	color: #000;
+	color: #B6B6B6;
 	transition: 0.25s;
 }
 header div:nth-child(2) li:hover > a {
@@ -70,9 +75,10 @@ header div:nth-child(2) li:hover > a {
 	-moz-transform: scale(1.05);
 	-o-transform: scale(1.05);
 	transform: translate(0%, -25%) scale(1.05);
+	color: #E7E7E7;
 }
 header div:nth-child(2) ul {
-	border-top: 1px solid dimgray;
+	border-top: 1px solid #493E65;
 	padding: 30px;
 	display: inline-block;
 }
@@ -93,6 +99,7 @@ header div:nth-child(2) li:nth-child(1) {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	color: #B6B6B6;
 }
 #intro h1, #intro p {
 	margin-top: 30px;
@@ -102,7 +109,7 @@ header div:nth-child(2) li:nth-child(1) {
 #intro a {
 	position: absolute;
 	bottom: 30px;
-	color: #000;
+	color: #B6B6B6;
 	transition: 0.25s;
 }
 
@@ -123,19 +130,20 @@ header div:nth-child(2) li:nth-child(1) {
 	width: 50%;
 	padding: 17.6px 35.2px;
 	font-style: italic;
-	border-top: 1px solid dimgray;
-	border-bottom: 1px solid dimgray;
+	border-top: 1px solid #493E65;
+	border-bottom: 1px solid #493E65;
 	position: relative;
 	display: block;
 	margin: 30px auto 0;
 	line-height: 2;
+	color: #B6B6B6;
 }
 .skills:nth-child(1) {
 	margin-top: 0;
 }
 .leftBorder, .rightBorder {
 	height: 50%;
-	border-left: 1px solid dimgray;
+	border-left: 1px solid #493E65;
 	position: absolute;
 }
 .leftBorder {
@@ -149,7 +157,7 @@ header div:nth-child(2) li:nth-child(1) {
 .skills span {
 	font-size: 18px;
 	font-weight: 600;
-	color: #000;
+	color: #493E65;
 	font-style: normal;
 }
 #skills ul {
@@ -165,10 +173,11 @@ header div:nth-child(2) li:nth-child(1) {
 }
 #skills > div div, #works > div:nth-child(1) div {
 	flex: 1;
-	border-top: 1px solid dimgray;
+	border-top: 1px solid #493E65;
 }
 #skills > div h1, #works > div:nth-child(1) h1 {
 	padding: 0 30px;
+	color: #493E65;
 }
 
 /* || portfolio */
@@ -188,7 +197,7 @@ header div:nth-child(2) li:nth-child(1) {
 #works-block img {
 	width: 100%;
 	height: auto;
-	box-shadow: rgba(50, 50, 93, 0.5) 0px 13px 27px -5px, rgba(0, 0, 0, 0.6) 0px 8px 16px -8px;
+	box-shadow: #000 0px 60px 40px -7px;
 }
 .work {
 	width: 50%;
@@ -203,25 +212,27 @@ header div:nth-child(2) li:nth-child(1) {
 .work h3 {
 	flex: 1;
 	font-style: italic;
+	color: #B6B6B6;
 }
 .work button {
 	padding: 12.5px 20px;
-	background: #000;
-	color: #EDEAE0;
-	border: 1px solid #000;
+	background: #493E65;
+	color: #E7E7E7;
+	border: 1px solid transparent;
 	transition: 0.15s;
 }
 .work button:hover {
 	background: transparent;
-	color: #000;
-	border: 1px solid dimgray;
+	color: #493E65;
+	border: 1px solid #493E65;
 }
 
 /* || footer */
 footer {
-	border-top: 1px solid dimgray;
+	border-top: 1px solid #493E65;
 	padding: 30px 0;
 	text-align: center;
+	color: #B6B6B6;
 }
 footer ul {
 	display: flex;
@@ -241,18 +252,21 @@ footer a {
 	height: 1em;
 	width: 1em;
 	border-radius: 50%;
-	color: #000;
+	color: #B6B6B6;
 	transition: 0.15s;
 }
-footer ul li:nth-child(2) a:hover {
+footer ul li:nth-child(3) a:hover {
 	color: #0088cc;
 }
 footer ul li:nth-child(1) a:hover {
 	background: #000;
 	color: #EDEAE0;
 }
+footer ul li:nth-child(2) a:hover {
+	color: #8a3ab9;
+}
 footer div:nth-child(1) {
-	border-bottom: 1px solid dimgray;
+	border-bottom: 1px solid #493E65;
 	padding-bottom: 30px;
 	font-style: italic;
 }
@@ -270,4 +284,7 @@ footer div:nth-child(1) p:nth-child(1) {
 #copyright {
 	margin-top: 30px;
 	text-align: center;
+}
+footer span {
+	color: #626068;
 }
