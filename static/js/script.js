@@ -13,6 +13,7 @@ window.onload = () => {
 		}
 	});
 
+	// animation with the arrow for scrolling down
 	window.onscroll = () => {
 		let elem = document.querySelector('#intro a');
 
@@ -23,7 +24,7 @@ window.onload = () => {
 		} else {
 			elem.style.transform = 'rotate(0deg)';
 
-			elem.href = '#about'
+			elem.href = '#about';
 		}
 	}
 }

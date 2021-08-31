@@ -5,7 +5,7 @@
 	font       #626068
 	border 	   dimgray
 
-	|| new colors
+	|| dark theme
 	background #121019
 	font #493E65, #B6B6B6
 	border #B6B6B6
@@ -20,7 +20,7 @@
 }
 html, body {
 	height: 100%;
-	background: #121019; /* #EDEAE0 */
+	background: #0F0F11; /* #EDEAE0 */
 	padding: 0 30px;
 	scroll-behavior: smooth;
 }
@@ -61,7 +61,7 @@ header div:nth-child(1) {
 	padding: 30px;
 }
 header div:nth-child(2) {
-	border-bottom: 1px solid #493E65;
+	border-bottom: 1px solid #292A2C;
 	font-size: 17px;
 	flex-direction: column;
 }
@@ -78,7 +78,7 @@ header div:nth-child(2) li:hover > a {
 	color: #E7E7E7;
 }
 header div:nth-child(2) ul {
-	border-top: 1px solid #493E65;
+	border-top: 1px solid #292A2C;
 	padding: 30px;
 	display: inline-block;
 }
@@ -124,14 +124,14 @@ header div:nth-child(2) li:nth-child(1) {
 	justify-content: center;
 }
 #about {
-	padding: 60px 0 90px;
+	padding: 60px 0 60px;
 }
 .skills {
 	width: 50%;
 	padding: 17.6px 35.2px;
 	font-style: italic;
-	border-top: 1px solid #493E65;
-	border-bottom: 1px solid #493E65;
+	border-top: 1px solid #292A2C;
+	border-bottom: 1px solid #292A2C;
 	position: relative;
 	display: block;
 	margin: 30px auto 0;
@@ -143,7 +143,7 @@ header div:nth-child(2) li:nth-child(1) {
 }
 .leftBorder, .rightBorder {
 	height: 50%;
-	border-left: 1px solid #493E65;
+	border-left: 1px solid #292A2C;
 	position: absolute;
 }
 .leftBorder {
@@ -173,7 +173,7 @@ header div:nth-child(2) li:nth-child(1) {
 }
 #skills > div div, #works > div:nth-child(1) div {
 	flex: 1;
-	border-top: 1px solid #493E65;
+	border-top: 1px solid #292A2C;
 }
 #skills > div h1, #works > div:nth-child(1) h1 {
 	padding: 0 30px;
@@ -187,7 +187,7 @@ header div:nth-child(2) li:nth-child(1) {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 60px 0 90px;
+	padding: 30px 0 60px;
 }
 #works-block {
 	display: flex;
@@ -220,16 +220,18 @@ header div:nth-child(2) li:nth-child(1) {
 	color: #E7E7E7;
 	border: 1px solid transparent;
 	transition: 0.15s;
+	box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
 }
 .work button:hover {
 	background: transparent;
 	color: #493E65;
-	border: 1px solid #493E65;
+	border: 1px solid transparent;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
 
 /* || footer */
 footer {
-	border-top: 1px solid #493E65;
+	border-top: 1px solid #292A2C;
 	padding: 30px 0;
 	text-align: center;
 	color: #B6B6B6;
@@ -266,7 +268,7 @@ footer ul li:nth-child(2) a:hover {
 	color: #8a3ab9;
 }
 footer div:nth-child(1) {
-	border-bottom: 1px solid #493E65;
+	border-bottom: 1px solid #292A2C;
 	padding-bottom: 30px;
 	font-style: italic;
 }
