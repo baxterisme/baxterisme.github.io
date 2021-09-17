@@ -3,7 +3,8 @@
 		width: 100%;
 	}
 }
-@media only screen and (max-width: 530px) {
+
+@media only screen and (max-width: 564px) {
 	html, body, #skills > div h1, #works > div:nth-child(1) h1 {
 		padding: 0 10px;
 	}
@@ -14,20 +15,36 @@
 		margin-left: 0;
 	}
 }
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 464px) {
 	header div:nth-child(2) li {
-		margin-left: 40px;
-	}
-	header div:nth-child(2) li:nth-child(1) {
-		margin-left: 0;
-	}
-}
-@media only screen and (max-width: 349.6px) {
-	header div:nth-child(2) li {
-		margin-left: 15px;
+		margin-left: 35px;
 	}
 	header div:nth-child(2) li:nth-child(1) {
 		margin-left: 0;
 	}
 }
 
+@media only screen and (max-width: 410px) {
+	header div:nth-child(2) li {
+		margin-left: 25px;
+	}
+	header div:nth-child(2) li:nth-child(1) {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	header div:nth-child(2) ul {
+		width: 100%;
+	}
+	header div:nth-child(2) li {
+		display: block;
+		margin-left: 0;
+		margin-top: 30px;
+		text-align: center;
+	}
+	header div:nth-child(2) li:nth-child(1) {
+		margin-top: 0;
+	}
+}
