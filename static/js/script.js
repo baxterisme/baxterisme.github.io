@@ -4,13 +4,7 @@ window.onload = () => {
 	let lightbox = document.querySelector('#lightbox');	
 
 	works.forEach(elem => {
-		elem.onclick = () => {
-			if (elem.getAttribute('link')) {
-				window.open(elem.getAttribute('link'));
-			} else {
-				window.open('./demos/photography/index.html');
-			}
-		}
+		elem.onclick = () => window.open(elem.getAttribute('link'));
 	});
 
 	// animation with the arrow for scrolling down
