@@ -778,13 +778,14 @@ footer {
 	#reebok-dropdown {
 		left: -100%;
 	}
-	#products {
-		padding: 15px;
+	#products, #album {
+		padding: 50px 0 0;
 	}
 	.product {
 		height: 500px;
 		width: 100%;
-		margin-top: 17.5px;
+		margin-bottom: 45px;
+		padding: 0;
 	}
 	.titleforproducts2 {
 		margin-top: 25px;
@@ -799,6 +800,7 @@ footer {
 	#album div {
 		width: 100%;
 		margin-bottom: 50px;
+		padding: 0;
 	}
 	.footer-child {
 		width: 100%;
