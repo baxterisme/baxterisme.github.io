@@ -124,7 +124,7 @@ header div:nth-child(2) li:nth-child(1) {
 	justify-content: center;
 }
 #about {
-	padding: 60px 0 60px;
+	padding: 15px 0;
 }
 .skills {
 	width: 50%;
@@ -134,12 +134,12 @@ header div:nth-child(2) li:nth-child(1) {
 	border-bottom: 1px solid dimgray;
 	position: relative;
 	display: block;
-	margin: 30px auto 0;
+	margin: 60px auto 0;
 	line-height: 2;
 	color: #626068;
 }
 .skills:nth-child(1) {
-	margin-top: 0;
+	margin-top: 15px;
 }
 .leftBorder, .rightBorder {
 	height: 50%;
@@ -162,7 +162,7 @@ header div:nth-child(2) li:nth-child(1) {
 }
 #skills ul {
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 45px;
 }
 #skills > div, #works > div:nth-child(1) {
 	width: 100%;
@@ -187,7 +187,7 @@ header div:nth-child(2) li:nth-child(1) {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 60px 0 60px;
+	padding: 60px 0;
 }
 #works-block {
 	display: flex;
@@ -201,7 +201,7 @@ header div:nth-child(2) li:nth-child(1) {
 }
 .work {
 	width: 50%;
-	margin-top: 30px;
+	margin-top: 60px;
 }
 .work div {
 	display: flex;
