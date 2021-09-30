@@ -2,7 +2,7 @@
 	|| page colors
 
 	background #EDEAE0
-	font       #626068, darkslategray
+	font       #626068, #2E273F
 	border 	   dimgray
 
 	|| dark theme
@@ -56,7 +56,7 @@ header div {
 }
 header div:nth-child(1) {
 	text-transform: uppercase;
-	color: darkslategray;
+	color: #2E273F;
 	text-align: center;
 	padding: 30px;
 }
@@ -181,7 +181,7 @@ header div:nth-child(2) li:nth-child(1) {
 }
 #skills > div h1, #works > div:nth-child(1) h1 {
 	padding: 0 30px;
-	color: 	darkslategray;
+	color: 	#2E273F;
 }
 
 /* || portfolio */
@@ -221,7 +221,7 @@ header div:nth-child(2) li:nth-child(1) {
 }
 .work button {
 	padding: 12.5px 20px;
-	background: darkslategray;
+	background: #2E273F;
 	color: #E7E7E7;
 	border: 1px solid transparent;
 	transition: 0.15s;
@@ -230,8 +230,8 @@ header div:nth-child(2) li:nth-child(1) {
 }
 .work button:hover {
 	background: transparent;
-	color: darkslategray;
-	border: 1px solid darkslategray;
+	color: #2E273F;
+	border: 1px solid #2E273F;
 	box-shadow: none;
 }
 
@@ -260,7 +260,7 @@ footer a {
 	height: 1em;
 	width: 1em;
 	border-radius: 50%;
-	color: darkslategray;
+	color: rgba(0, 0, 0, .75);
 	transition: 0.15s;
 }
 footer ul li:nth-child(3) a:hover {
@@ -281,7 +281,7 @@ footer div:nth-child(1) {
 footer div:nth-child(1) span {
 	font-style: normal;
 	font-weight: bold;
-	color: darkslategray;
+	color: #2E273F;
 }
 footer div:nth-child(1) p {
 	margin-top: 30px;
@@ -294,5 +294,5 @@ footer div:nth-child(1) p:nth-child(1) {
 #copyright {
 	margin-top: 30px;
 	text-align: center;
-	color: #000;
+	color: #2E273F;
 }
