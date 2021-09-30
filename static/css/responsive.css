@@ -27,14 +27,14 @@
 
 @media only screen and (max-width: 410px) {
 	header div:nth-child(2) li {
-		margin-left: 25px;
+		margin-left: 30px;
 	}
 	header div:nth-child(2) li:nth-child(1) {
 		margin-left: 0;
 	}
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 395px) {
 	header div:nth-child(2) ul {
 		width: 100%;
 	}
