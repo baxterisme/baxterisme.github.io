@@ -80,9 +80,13 @@ header div:nth-child(2) li:hover > a {
 header div:nth-child(2) ul {
 	border-top: 1px solid dimgray;
 	padding: 30px;
-	display: inline-block;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 header div:nth-child(2) li {
+	flex: 1;
+	text-align: center;
 	margin-left: 75px;
 	display: inline-block;
 	vertical-align: middle;
