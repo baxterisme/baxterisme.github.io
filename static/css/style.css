@@ -187,7 +187,8 @@ header div:nth-child(2) li:nth-child(1) {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 60px 0;
+	padding: 15px 0 60px;
+	margin-top: 45px;
 }
 #works-block {
 	display: flex;
