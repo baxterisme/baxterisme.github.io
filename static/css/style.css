@@ -113,7 +113,7 @@ header div:nth-child(2) li:nth-child(1) {
 #intro a {
 	position: absolute;
 	bottom: 30px;
-	color: #000;
+	color: #626068;
 	transition: 0.25s;
 }
 
@@ -161,7 +161,7 @@ header div:nth-child(2) li:nth-child(1) {
 .skills span {
 	font-size: 18px;
 	font-weight: 600;
-	color: rgba(0, 0, 0, .75);
+	color: rgba(0, 0, 0, .7);
 	font-style: normal;
 }
 #skills ul {
@@ -217,7 +217,7 @@ header div:nth-child(2) li:nth-child(1) {
 .work h3 {
 	flex: 1;
 	font-style: italic;
-	color: rgba(0, 0, 0, .75);
+	color: rgba(0, 0, 0, .7);
 }
 .work button {
 	padding: 12.5px 20px;
@@ -251,7 +251,7 @@ footer ul {
 }
 footer li {
 	font-size: 25px;
-	margin-left: 20px;
+	margin-left: 15px;
 }
 footer li:nth-child(1) {
 	margin-left: 0;
