@@ -87,7 +87,7 @@ header div:nth-child(2) ul {
 header div:nth-child(2) li {
 	flex: 1;
 	text-align: center;
-	margin-left: 75px;
+	margin-left: 100px;
 	display: inline-block;
 	vertical-align: middle;
 }
