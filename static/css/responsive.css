@@ -7,8 +7,8 @@
 	html, body, #skills > div h1, #works > div:nth-child(1) h1 {
 		padding: 0 10px;
 	}
-	header div:nth-child(2) ul {
-		width: 100%;
+	header div:nth-child(2) li {
+		margin-left: 75px;
 	}
 }
 @media only screen and (max-width: 395px) {
